@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Noto Sans Georgian", system-ui, sans-serif;
+  --color-ink: #12302f;
+  --color-brand: #0e7c7b;
+  --color-tint: #e6f3f2;
+  --color-free: #1f9d6b;
+  --color-paper: #f5f8f7;
+}
+body { font-family: var(--font-sans); background: var(--color-paper); color: var(--color-ink); font-size: 16px; }
+button, input, select { font: inherit; }
+:focus-visible { outline: 3px solid #f2b84b; outline-offset: 2px; }
